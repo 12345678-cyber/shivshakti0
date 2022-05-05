@@ -1,5 +1,5 @@
 {
-  "name": "PanduBot",
+  "name": "CheemsBot",
   "version": "2.0.0",
   "description": "WhatsApp Using Lib Baileys Multi Device",
   "main": "index.js",
@@ -64,9 +64,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/12345678-cyber/shivshakti0.git"
+    "url": "git+https://github.com/DGXeon/CheemsBot-MD2.git"
   },
   "bugs": {
-    "url": "https://github.com/12345678-cyber/shivshakti0/issues"
+    "url": "https://github.com/DGXeon/CheemsBot-MD2/issues"
   },
-  "homepage": "https://github.com/12345678-cyber/shivshakti0#readme"
+  "homepage": "https://github.com/DGXeon/CheemsBot-MD2#readme"
+}
