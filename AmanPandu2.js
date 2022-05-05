@@ -3,7 +3,7 @@
 //or copy the codes/script,
 //pls give credit
 //no credit? i will take action immediately
-//© 2022 Aman Bot Inc. Pandu Bot 
+//© 2022 Aman Bot Inc. Pandu bot
 //Thank you to Lord Krishna, Family and Myself
 //════════════════════════════//
 require('./settings')
@@ -22,7 +22,7 @@ const { performance } = require('perf_hooks')
 const { Primbon } = require('scrape-primbon')
 const primbon = new Primbon()
 const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom } = require('./lib/myfunc')
-const amanpal = require('xfarr-api')
+const dgxeon = require('xfarr-api')
 
 //rpg function\\
    const { 
@@ -206,9 +206,9 @@ module.exports = AmanBotInc = async (AmanBotInc, m, chatUpdate, store) => {
             console.error(err)
         }
 	
-	//group target by aman\\
+	//group target by xeon\\
 const reply = (teks) => {
-            AmanBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`.AmanMedia/pandupic.jpg`),"sourceUrl": "https://chat.whatsapp.com/LZsR23RRuPoBcygWKhXp65"}}}, { quoted: m})
+            AmanBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./AmanMedia/pandupic.jpg`),"sourceUrl": "https://chat.whatsapp.com/LZsR23RRuPoBcygWKhXp65"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
@@ -263,7 +263,7 @@ const reply = (teks) => {
         }
         }
 
-        //auto reply by aman 🚩
+        //auto reply by Aman 🌝
         for (let anji of setik){
 				if (budy === anji){
 					result = fs.readFileSync(`./AmanMedia/sticker/${anji}.webp`)
@@ -294,7 +294,7 @@ const reply = (teks) => {
       return
       }
         
-        //media detect by 🚩Aman\\
+        //media detect by 🌝aman\\
 		const isQuotedImage = type === 'extendedTextMessage' && content.includes('imageMessage')
 		const isQuotedVideo = type === 'extendedTextMessage' && content.includes('videoMessage')
 		const isQuotedAudio = type === 'extendedTextMessage' && content.includes('audioMessage')
@@ -1067,7 +1067,7 @@ Please @${m.mentionedJid[0].split`@`[0]} To Type Accept/Reject`
                     }
                 } else if (args[0] === 'word') {
                     if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) return replay(`There Are Still Unfinished Sessions!`)
-                    let anu = await fetchJson('https://raw.githubusercontent.com/amanpal/fungames/main/GuessTheWord.js')
+                    let anu = await fetchJson('https://raw.githubusercontent.com/DGXeon/fungames/main/GuessTheWord.js')
                     let result = anu[Math.floor(Math.random() * anu.length)]
                     AmanBotInc.sendText(m.chat, `Please Answer The Following Question\n\n${result.soal}\nTime : 60 seconds`, m).then(() => {
                     tebakkata[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
@@ -1080,7 +1080,7 @@ Please @${m.mentionedJid[0].split`@`[0]} To Type Accept/Reject`
                     }
                 } else if (args[0] === 'sentence') {
                     if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) return replay(`There Are Still Unfinished Sessions!`)
-                    let anu = await fetchJson('https://raw.githubusercontent.com/amanpal/fungames/main/GuessTheSentence.js')
+                    let anu = await fetchJson('https://raw.githubusercontent.com/DGXeon/fungames/main/GuessTheSentence.js')
                     let result = anu[Math.floor(Math.random() * anu.length)]
                     AmanBotInc.sendText(m.chat, `Please Answer The Following Question\n\n${result.soal}\nTime : 60 seconds`, m).then(() => {
                     tebakkalimat[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
@@ -1203,14 +1203,14 @@ AmanBotInc.sendMessage(from, { text: `Rate : ${q}\nAnswer : *${te}%*` }, { quote
 
 					break
   case 'handsomecheck':
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Aman`)
+				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Xeon`)
 					const gan = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const teng = gan[Math.floor(Math.random() * gan.length)]
 AmanBotInc.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${teng}%*` }, { quoted: m })
 
 					break
 case 'beautifulcheck':
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Aman`)
+				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Xeon`)
 					const can = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const tik = can[Math.floor(Math.random() * can.length)]
 AmanBotInc.sendMessage(from, { text: `*${command}*\n\nNama : ${q}\nAnswer : *${tik}%*` }, { quoted: m })
@@ -1226,16 +1226,16 @@ case 'awesomecheck':
                  case 'prettycheck':
                     case 'lovelycheck':
                       case 'uglycheck':
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Aman`)
+				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Xeon`)
 					const sangeh = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
 AmanBotInc.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${sange}%*` }, { quoted: m })
 					break
 					case 'charactercheck':
-					//YouTube📍 by aman⛔\\
-					if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Aman`)
-					const amany =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
-					const taky = amany[Math.floor(Math.random() * amany.length)]
+					//YouTube📍 by Aman⛔\\
+					if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Xeon`)
+					const xeony =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
+					const taky = xeony[Math.floor(Math.random() * xeony.length)]
 					AmanBotInc.sendMessage(from, { text: `Character Check : ${q}\nAnswer : *${taky}*` }, { quoted: m })
 				     break
                     case 'stupid':
@@ -1313,13 +1313,13 @@ case 'when':
 AmanBotInc.sendMessage(from, { text: `Question : ${q}\nAnswer : *${kapankah}*` }, { quoted: m })
 					break
 case 'wangy':
-              if (!text) return replay(`Use Text, Example : ${prefix + command} Aman`)
+              if (!text) return replay(`Use Text, Example : ${prefix + command} cheems`)
               qq = q.toUpperCase()
               awikwok = `${qq} ${qq} ${qq} ❤️ ❤️ ❤️ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, aaah the smell of hair ${qq} smelly i want to smell the fragrance ${qq} AAAAAAAAH ~ Her hair.... aaah i want to stroke her hair too ~~ AAAAAH ${qq} first time out in anime is cute too ❤️ ❤️ ❤️ so AAAAAAAH ${qq} AAAAAA LUCCUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH ❤️ ❤️ ❤️what ? ${qq} it's not real ? Just HELL you say ? no, no no no no no no no no no no no no no no no !! I DON'T CARE ABOUT THE REALITY, I DON'T CARE. ❤️ ❤️ ❤️ ${qq} me ... ${qq} on the laptop watching me, ${qq} .. you believe in me ? aaaaaaaaaaah thanks ${q} I don't want to give up ${qq} aaaaaah ❤️ ❤️ ❤️ YEAAAAAAAAAAAH I STILL HAVE ${qq} ALSO NOT THE SAME AAAAAAAAAAAAAAH`
              reply(awikwok)
               break
 case 'checkdeath':
-             if (!text) return replay(`Use Someone's Name, Example : ${prefix + command} Aman`)
+             if (!text) return replay(`Use Someone's Name, Example : ${prefix + command} Xeon`)
               predea = await axios.get(`https://api.agify.io/?name=${q}`)
               reply(`Name : ${predea.data.name}\n*Dead At Age :* ${predea.data.age} Year.\n\n_Quick, Quick, Repent Bro, Because No One Knows About Death_`)
               break
@@ -1743,7 +1743,7 @@ break
             break
             case 'bcgc': case 'bcgroup': {
                 if (!isCreator) return replay(`${mess.owner}`)
-                if (!text) return replay(`Where Is The Text?\n\nExample : ${prefix + command} Aman Handsome`)
+                if (!text) return replay(`Where Is The Text?\n\nExample : ${prefix + command} Xeon Handsome`)
                 let getGroups = await AmanBotInc.groupFetchAllParticipating()
                 let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
                 let anu = groups.map(v => v.id)
@@ -1757,7 +1757,7 @@ break
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'Instagram📍',
                                     url: `${myweb}`
                                 }
                             }, {
@@ -1771,7 +1771,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 pandu Bot Broadcast 」\n\n${text}`
+                      let txt = `「 Cheems Bot Broadcast 」\n\n${text}`
                       AmanBotInc.send5ButImg(i, txt, AmanBotInc.user.name, global.thumb, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1779,7 +1779,7 @@ break
             break
             case 'bc': case 'broadcast': case 'bcall': {
                 if (!isCreator) return replay(`${mess.owner}`)
-                if (!text) return replay(`Where Is The Text?\n\nExample : ${prefix + command} Aman`)
+                if (!text) return replay(`Where Is The Text?\n\nExample : ${prefix + command} Xeon`)
                 let anu = await store.chats.all().map(v => v.id)
                 reply(`Send Broadcast To ${anu.length} Chat\nFinish Time ${anu.length * 1.5} Seconds`)
 		for (let yoi of anu) {
@@ -1791,7 +1791,7 @@ break
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'Instagram📍',
                                     url: `${myweb}`
                                 }
                             }, {
@@ -1805,7 +1805,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 pandu Bot Broadcast 」\n\n${text}`
+                      let txt = `「 Cheems Bot Broadcast 」\n\n${text}`
                       AmanBotInc.send5ButImg(yoi, txt, AmanBotInc.user.name, global.thumb, btn)
 		}
 		reply('Broadcast Success')
@@ -1838,7 +1838,7 @@ break
                  let teks = `⬣ *PERSONAL CHAT LIST*\n\nTotal Chat : ${anu.length} Chat\n\n`
                  for (let i of anu) {
                      let nama = store.messages[i].array[0].pushName
-                     teks += `🐕 *Name :* ${nama}\n🐕 *User :* @${i.split('@')[0]}\n🐕 *Chat :* https://wa.me/${i.split('@')[0]}\n\n────────────────────────\n\n`
+                     teks += `👻 *Name :* ${nama}\n👻 *User :* @${i.split('@')[0]}\n👻 *Chat :* https://wa.me/${i.split('@')[0]}\n\n────────────────────────\n\n`
                  }
                  AmanBotInc.sendTextWithMentions(m.chat, teks, m)
              }
@@ -1848,7 +1848,7 @@ break
                  let teks = `⬣ *GROUP CHAT LIST*\n\nTotal Group : ${anu.length} Group\n\n`
                  for (let i of anu) {
                      let metadata = await AmanBotInc.groupMetadata(i)
-                     teks += `🐕 *Name :* ${metadata.subject}\n🐕 *Owner :* @${metadata.owner.split('@')[0]}\n🐕 *ID :* ${metadata.id}\n🐕 *Made :* ${moment(metadata.creation * 1000).tz('Asia/Kolkata').format('DD/MM/YYYY HH:mm:ss')}\n🐕 *Member :* ${metadata.participants.length}\n\n────────────────────────\n\n`
+                     teks += `👻 *Name :* ${metadata.subject}\n👻 *Owner :* @${metadata.owner.split('@')[0]}\n👻 *ID :* ${metadata.id}\n👻 *Made :* ${moment(metadata.creation * 1000).tz('Asia/Kolkata').format('DD/MM/YYYY HH:mm:ss')}\n👻 *Member :* ${metadata.participants.length}\n\n────────────────────────\n\n`
                  }
                  AmanBotInc.sendTextWithMentions(m.chat, teks, m)
              }
@@ -2035,7 +2035,7 @@ break
             }
             break
         case 'google': {
-                if (!text) return reply(`Example : ${prefix + command} pandu shiba inu`)
+                if (!text) return reply(`Example : ${prefix + command} cheems shiba inu`)
                 let google = require('google-it')
                 google({'query': text}).then(res => {
                 let teks = `Google Search Title : ${text}\n\n`
@@ -2049,7 +2049,7 @@ break
                 }
                 break
         case 'gimage': case 'googleimage': {
-        if (!text) return reply(`Example : ${prefix + command} pandu`)
+        if (!text) return reply(`Example : ${prefix + command} cheems`)
         let gis = require('g-i-s')
         gis(text, async (error, result) => {
         n = result
@@ -2105,7 +2105,7 @@ break
                 let quality = args[1] ? args[1] : '320kbps'
                 let media = await yta(text, quality)
                 if (media.filesize >= 999999) return reply('File Over Limit '+util.format(media))
-                AmanBotInc.sendImage(m.chat, media.thumb, `🌝 Title : ${media.title}\n🌝 File Size : ${media.filesizeF}\n🌝 Url : ${isUrl(text)}\n🌝 Ext : MP3\n🌝 Resolution : ${args[1] || '320kbps'}`, m)
+                AmanBotInc.sendImage(m.chat, media.thumb, `?? Title : ${media.title}\n🌝 File Size : ${media.filesizeF}\n🌝 Url : ${isUrl(text)}\n🌝 Ext : MP3\n🌝 Resolution : ${args[1] || '320kbps'}`, m)
                 AmanBotInc.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
             break
@@ -2152,7 +2152,7 @@ break
 case 'webtonsearch': case 'webtoon':
                 if (!text) return reply('What Are you Looking For??')
                 await reply(mess.wait)
-                amanpal.Webtoons(q).then(async data => {
+                dgxeon.Webtoons(q).then(async data => {
                     let txt = `*------「 WEBTOONS-SEARCH 」------*\n\n`
                     for (let i of data) {
                         txt += `*📫 Title :* ${i.judul}\n`
@@ -2170,7 +2170,7 @@ case 'webtonsearch': case 'webtoon':
             case 'drakorxxx':
                 if (!text) return reply('What Are You Looking For??')
                 await reply(mess.wait)
-                amanpal.Drakor(`${text}`).then(async data => {
+                dgxeon.Drakor(`${text}`).then(async data => {
                     let txt = `*-----「 DRAKOR-SEARCH 」-----*\n\n`
                     for (let i of data) {
                         txt += `*📫 Title :* ${i.judul}\n`
@@ -2187,7 +2187,7 @@ case 'webtonsearch': case 'webtoon':
             case 'animexxx':{
                 if (!text) return reply(`What Anime Are You Looking For??`)
                 await reply(mess.wait)
-                amanpal.Anime(q).then(async data => {
+                dgxeon.Anime(q).then(async data => {
                     let txt = `*-------「 ANIME-SEARCH 」-------*\n\n`
                     for (let i of data) {
                         txt += `*📫 Title :* ${i.judul}\n`
@@ -2212,7 +2212,7 @@ case 'webtonsearch': case 'webtoon':
             case 'characterxxx': case 'karakterxxx':
                 if (!text) return reply(`What Anime Character Are You Looking For??`)
                 await reply(mess.wait)
-                amanpal.Character(q).then(async data => {
+                dgxeon.Character(q).then(async data => {
                     let txt = `*---「 CHARACTER-SEARCH 」---*\n\n`
                     for (let i of data) {
                         txt += `*📫 Character :* ${i.character}\n`
@@ -2222,7 +2222,7 @@ case 'webtonsearch': case 'webtoon':
                     var but = [
 				{
 					"urlButton": {
-						"displayText": "YouTube📍",
+						"displayText": "Instagram📍",
 						"url": `${myweb}`
 						}
 					}
@@ -2236,7 +2236,7 @@ case 'webtonsearch': case 'webtoon':
             case 'manga':
                 if (!text) return reply(`What Manga Are You Looking For??`)
                 await reply(mess.wait)
-                amanpal.Manga(`${text}`).then(async data => {
+                dgxeon.Manga(`${text}`).then(async data => {
                     let txt = `*------「 MANGA-SEARCH 」------*\n\n`
                     for (let i of data) {
                          txt += `*📫 Title :* ${i.judul}\n`
@@ -2246,7 +2246,7 @@ case 'webtonsearch': case 'webtoon':
                     var but = [
 				{
 					"urlButton": {
-						"displayText": "YouTube📍",
+						"displayText": "Instagram 📍",
 						"url": `${myweb}`
 						}
 					}
@@ -2351,7 +2351,7 @@ case 'webtonsearch': case 'webtoon':
             }
             break
             case '3dchristmas': case '3ddeepsea': case 'americanflag': case '3dscifi': case '3drainbow': case '3dwaterpipe': case 'halloweenskeleton': case 'sketch': case 'bluecircuit': case 'space': case 'metallic': case 'fiction': case 'greenhorror': case 'transformer': case 'berry': case 'thunder': case 'magma': case '3dcrackedstone': case '3dneonlight': case 'impressiveglitch': case 'naturalleaves': case 'fireworksparkle': case 'matrix': case 'dropwater':  case 'harrypotter': case 'foggywindow': case 'neondevils': case 'christmasholiday': case '3dgradient': case 'blackpink': case 'gluetext': {
-                if (!text) return reply(`Enter Text, Example : ${prefix + command} Aman`)
+                if (!text) return reply(`Enter Text, Example : ${prefix + command} Xeon`)
                 reply(mess.wait)
                 AmanBotInc.sendMessage(m.chat, { image: { url: api('zenz', '/textpro/' + command, { text: text }, 'apikey') }, caption: `Text Pro ${command}` }, { quoted: m})
 	    }
@@ -2655,10 +2655,10 @@ case 'webtonsearch': case 'webtoon':
                     reply(`ID : ${anu.result.gameId}\nUsername : ${anu.result.userName}`)
 		    db.data.users[m.sender].limit -= 1
                 } else if (type.toLowerCase() == 'ig') {
-                    if (!id) return reply(`No Query username, Example : ${prefix + command} ig josephaman13`)
+                    if (!id) return reply(`No Query username, Example : ${prefix + command} ig josephxeon13`)
                     let { result: anu } = await fetchJson(api('zenz', '/api/stalker/ig', { username: id }, 'apikey'))
                     if (anu.status == false) return reply(anu.result.message)
-                    AmanBotInc.sendMedia(m.chat, anu.caption.profile_hd, '', `🌝 Full Name : ${anu.caption.full_name}\n🌝 User Name : ${anu.caption.user_name}\n🌝 ID ${anu.caption.user_id}\n🌝 Following : ${anu.caption.followers}\n🌝 Followers : ${anu.caption.following}\n🌝 Bussines : ${anu.caption.bussines}\n🌝 Professional : ${anu.caption.profesional}\n🌝 Verified : ${anu.caption.verified}\n🌝 Private : ${anu.caption.private}\n🌝 Bio : ${anu.caption.biography}\n🌝 Bio Url : ${anu.caption.bio_url}`, m)
+                    AmanBotInc.sendMedia(m.chat, anu.caption.profile_hd, '', `🌝 Full Name : ${anu.caption.full_name}\n🌝 User Name : ${anu.caption.user_name}\n🌝  ID ${anu.caption.user_id}\n🌝 Following : ${anu.caption.followers}\n🌝 Followers : ${anu.caption.following}\n🌝 Bussines : ${anu.caption.bussines}\n🌝 Professional : ${anu.caption.profesional}\n🌝 Verified : ${anu.caption.verified}\n🌝 Private : ${anu.caption.private}\n🌝 Bio : ${anu.caption.biography}\n🌝 Bio Url : ${anu.caption.bio_url}`, m)
 		    db.data.users[m.sender].limit -= 1
                 } else if (type.toLowerCase() == 'npm') {
                     if (!id) return reply(`No Query username, Example : ${prefix + command} npm scrape-primbon`)
@@ -2826,7 +2826,7 @@ case 'webtonsearch': case 'webtoon':
 🌝 Title : ${anu.title}
 🌝 Author : ${anu.author.name}
 🌝 Like : ${anu.like}
-🌝 Caption : ${anu.caption}
+🌝Caption : ${anu.caption}
 🌝 Url : ${anu.media[0]}
 To Download Media, Please Click One Of The Buttons Below Or Enter The ytmp3/ytmp4 Command With The Url Above
 `,
@@ -3039,7 +3039,7 @@ View List Of Messages With ${prefix}listmsg`)
 	        let seplit = Object.entries(global.db.data.database).map(([nama, isi]) => { return { nama, ...isi } })
 		let teks = '「 DATABASE LIST 」\n\n'
 		for (let i of seplit) {
-		    teks += `🐕 *Name :* ${i.nama}\n🐕 *Type :* ${getContentType(i.message).replace(/Message/i, '')}\n────────────────────────\n\n`
+		    teks += `🌝*Name :* ${i.nama}\n🌝 *Type :* ${getContentType(i.message).replace(/Message/i, '')}\n────────────────────────\n\n`
 	        }
 	        reply(teks)
 	    }
@@ -3277,7 +3277,7 @@ Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break
-                    case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'pandu': case 'doge':{
+                    case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'doge':{
                            	timestampe = speed();
 latensie = speed() - timestampe
  anu = ` `
@@ -3286,11 +3286,11 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./amanMedia/pandupic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./AmanMedia/pandupic.jpg')},
                             hydratedFooterText: `┌─❖
-│「 Hi 👋 」
+│「 Hi 👋 Ram Ram jii/sat shri akal paji 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  pandu Bot With You Forever 
+┌┤✑  Pandu Bot With You Forever 
 ││✑  🌝🖐️!!
 │└───────────────┈ ⳹
 │ 「 BOT INFO 」
@@ -3307,7 +3307,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
    └───────────────┈ ⳹`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'Imstagram📍',
                                     url: `${myweb}`
                                 }
                             }, {
@@ -3317,12 +3317,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🍇All Menu🍇',
+                                    displayText: '🥴All Menu👻',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍒List Menu🍒',
+                                    displayText: '🌝List Menu🌝',
                                     id: `${prefix}command`
                                 }
                                 }, {
@@ -3346,10 +3346,10 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./amanMedia/pandupic.jpg')}, 
+                            jpegThumbnail: fs.readFileSync('./AmanMedia/pandupic.jpg')}, 
                             hydratedFooterText: `
 ┌─❖
-│「 Hi 👋 」
+│「 Hi 👋 Jay shree ram 🙏🔥🚩」
 └┬❖ 「 ${pushname} 」
 ┌┤✑  How Are You? 😄
 │└───────────────┈ ⳹
@@ -3357,17 +3357,18 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 │✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 │✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
 │✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
-│✙ 𝗢𝘄??𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
+│✙ 𝗢𝘄n𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
 │✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
 │✙ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
 │✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
 │✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
+│✙  𝕠𝕨𝕟𝕖𝕣 : 𝔸𝕄𝔸ℕ ℙ𝔸𝕃
 └┬──────────────┈ ⳹
    │✑  Please Select The Button Below
    └───────────────┈ ⳹`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'Instagram📍',
                                     url: `${myweb}`
                                 }
                             }, {
@@ -3377,12 +3378,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🍇All Menu🍇',
+                                    displayText: '🥴All Menu🥺',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍒List Menu🍒',
+                                    displayText: '👻List Menu👻',
                                     id: `${prefix}command`
                                 }
                                 }, {
@@ -3480,7 +3481,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										},
 										{
 											"title": "Islamic Menu",
-										"description": "Displays The List Of Islamic Features",
+										"description": "madarchod kattar hindu hai 🚩🚩",
 										"rowId": `${prefix}islamicmenu`
 										},
 										{
@@ -3518,19 +3519,20 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                AmanBotInc.sendMessage(m.chat, { image: { url: 'talk to owner' }, caption: `*Hi Bro ${m.pushName}*\n\nDonate Me : \n\n🌝 Fampay : no Paytm : If You Want To Donate, Talk With The Owner First\nwa.me/917505344967 (Click To Contact)` }, { quoted: m })
+                AmanBotInc.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/hgFDBPt/IMG-20220505-143952.jpg' }, caption: `*Hi Bro ${m.pushName}*\n\nDonate Me : \n\n🌝 Paytm :If You Want To Donate, Talk With The Owner First\nwa.me/917505344967 (Click To Contact)` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
-                reply(`GitHub : https//github.com`)
+                reply(`GitHub : insta pe follow krke msg kar id ye rahi (https://instagram.com/kattar.hindu_____?igshid=YmMyMTA2M2Y=)`)
             }
-            case 'allmenu': {
+            break
+case 'allmenu': {
   	anu = `
 ┏━「 *${botname}* 」━━⭓ 
 ┃╔═══════✪「 MAIN 」
 ┃╠ ${prefix}alive
 ┃╠ ${prefix}script
-┃╠ ${prefix}speedtestn
+┃╠ ${prefix}speedtest
 ┃╠ ${prefix}ping
 ┃╠ ${prefix}owner
 ┃╠ ${prefix}menu
@@ -3759,7 +3761,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./amanMedia/pandupic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./AmanMedia/pandupic.jpg')},
                             hydratedFooterText: `${pushname}`,
                             hydratedButtons: [{
                                 urlButton: {
