@@ -1,10 +1,10 @@
 <h1 align="center">ꪶ 𝗣𝗮𝗻𝗱𝘂 𝗕𝗼𝘁 𝗩𝟮ꫂ<br></h1>
 <p align="center">
-  <img src="<a href="https://ibb.co/hgFDBPt"><img src="https://i.ibb.co/hgFDBPt/IMG-20220505-143952.jpg" alt="IMG-20220505-143952" border="0"></a>"" />
+  <img src="<a href="https://ibb.co/hgFDBPt"><img src="https://i.ibb.co/hgFDBPt/IMG-20220505-143952.jpg" alt="IMG-20220505-143952" border="0"></a>"
 </p>
 
 <p align="center">
-Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/DGXeon" target="_blank">Xeon</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
+Pandu Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/12345678-cyber/shivshakti0" target="_blank">Aman</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
 </p>
 
 <p align="center">
