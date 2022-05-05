@@ -8,7 +8,7 @@ Pandu Bot Multi Device is a automated whatsapp bot created by <a href="https://g
 </p>
 
 <p align="center">
-<a href="https://youtu.be/imFIX-Wrt3s"><img title="Size" src="https://img.shields.io/badge/Tutorial-Video-green"></a>
+<a href="https://instagram.com/kattar.hindu_____?igshid=YmMyMTA2M2Y="><img title="Size" src="https://img.shields.io/badge/Help-green"></a>
 </p>
 
 ------
