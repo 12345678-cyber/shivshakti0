@@ -1,6 +1,6 @@
 <h1 align="center">ꪶ 𝗣𝗮𝗻𝗱𝘂 𝗕𝗼𝘁 𝗩𝟮ꫂ<br></h1>
 <p align="center">
-  <img src="https://telegra.ph/Pandu-bot-05-05-2" width="540" height="300" />
+  <img src="https://ibb.co/hgFDBPt" width="540" height="300" />
 </p>
 
 <p align="center">
