@@ -1,6 +1,6 @@
 <h1 align="center">ꪶ 𝗣𝗮𝗻𝗱𝘂 𝗕𝗼𝘁 𝗩𝟮ꫂ<br></h1>
 <p align="center">
-  <img src="[url=https://ibb.co/hgFDBPt][img]https://i.ibb.co/hgFDBPt/IMG-20220505-143952.jpg[/img][/url]" width="540" height="300" />
+  <img src="<a href="https://ibb.co/hgFDBPt"><img src="https://i.ibb.co/hgFDBPt/IMG-20220505-143952.jpg" alt="IMG-20220505-143952" border="0"></a>" width="540" height="300" />
 </p>
 
 <p align="center">
