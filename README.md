@@ -31,7 +31,7 @@ Pandu Bot Multi Device is a automated whatsapp bot created by <a href="https://g
 
 ## ```Connect With Me```
 <p align="center">
-<a href="https://wa.me/917505344967"><img src="https://img.shields.io/badge/Contact Xeon-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://wa.me/917505344967"><img src="https://img.shields.io/badge/Contact Aman-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://chat.whatsapp.com/LZsR23RRuPoBcygWKhXp65"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://instagram.com/kattar.hindu_____?igshid=YmMyMTA2M2Y="><img src="https://img.shields.io/badge/Follow Aman-ff0000?style=for-the-badge&logo=Instagram&logoColor=ff000000&link=https://www.instagram.com/c/BOTINDO" /><br>
 </p>
