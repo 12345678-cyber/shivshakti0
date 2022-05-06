@@ -3,8 +3,8 @@
 //or copy the codes/script,
 //pls give credit
 //no credit? i will take action immediately
-//© 2022 Aman Bot Inc. Pandu Bot MD
-//Thank you to Lord Buddha, Family and Myself
+//© 2022 Aman Bot Inc. Pandu Bot
+//Thank you to Lord Krishna, Family and Myself
 //════════════════════════════//
 
 require('./settings')
