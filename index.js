@@ -147,16 +147,16 @@ Kon = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURICom
 Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/d460e086f9f9bf6b04e17.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
                 if (anu.action == 'add') {
                     AmanBotInc.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `
-🐶✑ Hi👋 @${num.split("@")[0]},
-🐶✑ Welcome To ${metadata.subject}
+♥️✑ Hi👋 jay shree ram jii 🙏🙏 @${num.split("@")[0]},
+♥️✑ Welcome To ${metadata.subject}
 
-🐶✑ Description: ${metadata.desc}
+♥️✑ Description: ${metadata.desc}
 
-🐶✑ Welcome To Our Comfortable Happy😋, Sometimes Loud😜, Usually Messy🤥, Full Of Love🥰, HOME😌!!`} )
+♥️✑ Welcome To Our Comfortable Happy😋, Sometimes Loud😜, Usually Messy🤥, Full Of Love🥰, HOME😌!!`} )
                 } else if (anu.action == 'remove') {
-                    AmanBotInc.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `🐶✑ @${num.split("@")[0]} Left ${metadata.subject}
+                    AmanBotInc.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `♥️✑ @${num.split("@")[0]} Left ${metadata.subject}
 
-🐶✑ I'm Not Sure If It Was A Goodbye Charm, But It Was Fun While It Lasted 😌✨` })
+♥️✑ hahaha 😂 chla gaya btw!!! Aao to welcome jao to bheed kam` })
                 }
             }
         } catch (err) {
